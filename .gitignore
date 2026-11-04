@@ -55,5 +55,5 @@ dkms.conf
 *.dwo
 
 # Compilation Generated Files
-Kyber_IoT_4.X/.generated_files
-Kyber_IoT_4.X/dist
+Kyber_IoT.X/.generated_files
+Kyber_IoT.X/dist
