@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Kyber_IoT_4.X
+PROJECTNAME=Kyber_IoT.X
 
 # Active Configuration
 DEFAULTCONF=default

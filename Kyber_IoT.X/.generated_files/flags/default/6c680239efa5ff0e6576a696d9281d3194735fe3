@@ -1,1 +1,0 @@
- -c -mcpu=$(MP_PROCESSOR_OPTION)      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -ffunction-sections -Os -msmart-io=1 -Wall -msfr-warn=off   -fgnu89-inline  -mdfp="${DFP_DIR}/xc16"C:\Users\mwes\Documents\ApMik\repo\KyberIoT\Kyber_IoT_4.X\mcc_generated_files\cryptoauthlib\lib\basic\atca_basic_ecdh.c
