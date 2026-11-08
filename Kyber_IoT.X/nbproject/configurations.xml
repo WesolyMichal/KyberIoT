@@ -203,6 +203,8 @@
       </logicalFolder>
       <logicalFolder name="my_files" displayName="my_files" projectFiles="true">
         <itemPath>my_files/oled.h</itemPath>
+        <itemPath>my_files/sh1106.h</itemPath>
+        <itemPath>my_files/sh1106_font5x7.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -419,6 +421,7 @@
       </logicalFolder>
       <logicalFolder name="my_files" displayName="my_files" projectFiles="true">
         <itemPath>my_files/oled.c</itemPath>
+        <itemPath>my_files/sh1106.c</itemPath>
       </logicalFolder>
       <itemPath>main_demo.c</itemPath>
       <itemPath>main.c</itemPath>
@@ -504,7 +507,7 @@
         <property key="oXC16gcc-sfr-warn" value="false"/>
         <property key="oXC16gcc-smar-io-lvl" value="1"/>
         <property key="oXC16gcc-smart-io-fmt" value=""/>
-        <property key="optimization-level" value="0"/>
+        <property key="optimization-level" value="s"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
         <property key="preprocessor-macros" value=""/>
@@ -1647,6 +1650,36 @@
         </C30-LD>
         <C30Global>
         </C30Global>
+      </item>
+      <item path="mcc_generated_files/application_manager.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="mcc_generated_files/application_manager.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="mcc_generated_files/cli/cli.c" ex="true" overriding="false">
+      </item>
+      <item path="mcc_generated_files/cli/cli.h" ex="true" overriding="false">
+      </item>
+      <item path="mcc_generated_files/cloud/cloud_service.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="mcc_generated_files/cloud/cloud_service.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="mcc_generated_files/cloud/wifi_service.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="mcc_generated_files/cloud/wifi_service.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="my_files/oled.c" ex="true" overriding="false">
       </item>
       <nEdbgTool>
         <property key="ADC 1" value="true"/>

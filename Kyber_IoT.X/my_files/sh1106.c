@@ -11,10 +11,11 @@
 #include "sh1106.h"
 #include "sh1106_font5x7.h"
 
-#include "i2c1.h"          /* MCC generated I2C1 driver */
+#include "../mcc_generated_files/i2c1.h"          /* MCC generated I2C1 driver */
 
 #include <stddef.h>
 #include <string.h>
+#define FCY 32000000UL
 
 /* ------------------------------------------------------------------------- */
 /*  Port hooks                                                                */

@@ -134,36 +134,7 @@ void runScheduler(void)
 
 // This could be better done with a function pointer (DI) but in the interest of simplicity 
 //     we avoided that. This is being called from MAIN_dataTask below  
-void receivedFromCloud(uint8_t *topic, uint8_t *payload)
-{
-    char *toggleToken = "\"toggle\":";
-    char *subString;
-    
-    if ((subString = strstr((char*)payload, toggleToken)))
-    {
-        LED_holdYellowOn( subString[strlen(toggleToken)] == '1' );
-    }
-
-
-    debug_printer(SEVERITY_NONE, LEVEL_NORMAL, "topic: %s", topic);
-    debug_printer(SEVERITY_NONE, LEVEL_NORMAL, "payload: %s", payload);
-}
-
-// This will get called every 1 second only while we have a valid Cloud connection
-void sendToCloud(void)
-{
-   static char json[70];
-         
-   // This part runs every CFG_SEND_INTERVAL seconds
-   int rawTemperature = SENSORS_getTempValue();
-   int light = SENSORS_getLightValue();
-   int len = sprintf(json, "{\"Light\":%d,\"Temp\":\"%d.%02d\"}", light,rawTemperature/100,abs(rawTemperature)%100);
-
-   if (len >0) {
-      CLOUD_publishData((uint8_t*)json, len);
-      LED_flashYellow();
-   }
-}
+void sendToCloud(void);
 
 // This gets called by the scheduler approximately every 100ms
 uint32_t MAIN_dataTask(void *payload)
