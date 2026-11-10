@@ -94,6 +94,9 @@
 #pragma config SOSCHP = ON    //SOSC High Power Enable bit (valid only when SOSCSEL = 1->Enable SOSC high power mode (default)
 #pragma config ALTI2C1 = ALTI2CEN    //Alternate I2C pin Location->SDA1 and SCL1 on RB9 and RB8
 
+//FCY
+#define FCY 32000000ULL
+
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
@@ -111,9 +114,11 @@
 #include "drivers/timeout.h"
 #include "interrupt_manager.h"
 #include "traps.h"
+#include <libpic30.h>
 
 void SYSTEM_Initialize(void)
 {
+    __delay_ms(100);
     PIN_MANAGER_Initialize();
     CLOCK_Initialize();
     INTERRUPT_Initialize();

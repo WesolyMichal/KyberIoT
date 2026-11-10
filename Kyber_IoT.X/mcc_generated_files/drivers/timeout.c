@@ -444,6 +444,11 @@ It assumes that the callback is completed before the next timer tick.
 */
 void timeout_isr(void)
 {
+    if(listHead == NULL){
+        stopTimeouts();
+        return;
+    }
+    
     timerStruct_t *next = listHead->next;
     absoluteTimeofLastTimeout = listHead->absoluteTime;
     lastTimerLoad = 0;

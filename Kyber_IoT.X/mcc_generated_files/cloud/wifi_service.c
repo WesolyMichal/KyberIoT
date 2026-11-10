@@ -23,6 +23,8 @@
 #include "../tmr2.h"
 #include "../led.h"
 
+#include "../../my_files/comms.h"
+
 #define CLOUD_WIFI_TASK_INTERVAL        timeout_mSecToTicks(50L)
 #define CLOUD_NTP_TASK_INTERVAL         timeout_mSecToTicks(500L)
 #define SOFT_AP_CONNECT_RETRY_INTERVAL  timeout_mSecToTicks(1000L)
@@ -186,7 +188,7 @@ static void wifiCallback(uint8_t msgType, void *pMsg)
 					responseFromProvisionConnect = false;
                     LED_blinkingBlue(false);
 					timeout_create(&ntpTimeFetchTimer,CLOUD_NTP_TASK_INTERVAL);	
-					application_post_provisioning();
+//					application_post_provisioning();
 				}
 				shared_networking_params.haveAPConnection = 1;
                 debug_printGOOD("wifi_cb: M2M_WIFI_RESP_CON_STATE_CHANGED: CONNECTED");

@@ -11,18 +11,18 @@
 
 #include <stdint.h>
 
-typedef union
-{
-    uint8_t allBits;
-    struct
-    {
-        unsigned amDisconnecting :1;
-        unsigned haveAPConnection :1;
-        unsigned haveERROR :1;
-        unsigned :5;
-    };
-} shared_networking_params_t;
-extern shared_networking_params_t shared_networking_params;
+//typedef union
+//{
+//    uint8_t allBits;
+//    struct
+//    {
+//        unsigned amDisconnecting :1;
+//        unsigned haveAPConnection :1;
+//        unsigned haveERROR :1;
+//        unsigned :5;
+//    };
+//} shared_networking_params_t;
+//extern shared_networking_params_t shared_networking_params;
 
 void application_init(void);
 void application_post_provisioning(void);
