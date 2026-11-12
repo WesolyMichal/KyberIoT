@@ -1,1002 +1,287 @@
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Post:SetFreezePerihperalInfo
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return Value
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 none
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return End
+707 1794396771142 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
 
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Pre:GetPC
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Payload
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 null
-850 1794069161292 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Payload End
-850 1794069161292 ExecuteFunCall.call get_pc
-850 1794069161299 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Post:GetPC
-850 1794069161299 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return Value
-850 1794069161299 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 cd26
-850 1794069161299 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return End
+707 1794396771142 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:GetFirmwareInfo
+707 1794396771142 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+707 1794396771142 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG null
+707 1794396771142 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+707 1794396771142 NativeController::GetFirmwareInfo entry
+707 1794396771142 pro JtagIce3 [0x01] <<< 02 00 00 00 01 
 
-850 1794069161300 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Pre:RunTarget
-850 1794069161300 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Payload
-850 1794069161300 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 com.microchip.mplab.mdbcore.RI4Tool.DebugHandler@68d3868a
-850 1794069161300 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Payload End
-850 1794069161300 ExecuteFunCall.call run_target
-850 1794069161306 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Post:RunTarget
-850 1794069161306 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return Value
-850 1794069161306 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 true
-850 1794069161306 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC24FJ128GA705 Return End
-850 1794069161552 EvalCall 
-850 1794069161555 ExecutingUnlockedFunction is_target_running
-850 1794069161739 EvalCall 
-850 1794069161745 ExecutingUnlockedFunction is_target_running
-850 1794069161839 EvalCall 
-850 1794069161842 ExecutingUnlockedFunction is_target_running
-850 1794069161944 EvalCall 
-850 1794069161948 ExecutingUnlockedFunction is_target_running
-850 1794069162047 EvalCall 
-850 1794069162049 ExecutingUnlockedFunction is_target_running
-850 1794069162146 EvalCall 
-850 1794069162149 ExecutingUnlockedFunction is_target_running
-850 1794069162253 EvalCall 
-850 1794069162253 ExecutingUnlockedFunction is_target_running
-850 1794069162355 EvalCall 
-850 1794069162355 ExecutingUnlockedFunction is_target_running
-850 1794069162457 EvalCall 
-850 1794069162460 ExecutingUnlockedFunction is_target_running
-850 1794069162559 EvalCall 
-850 1794069162561 ExecutingUnlockedFunction is_target_running
-850 1794069162660 EvalCall 
-850 1794069162662 ExecutingUnlockedFunction is_target_running
-850 1794069162762 EvalCall 
-850 1794069162764 ExecutingUnlockedFunction is_target_running
-850 1794069162864 EvalCall 
-850 1794069162866 ExecutingUnlockedFunction is_target_running
-850 1794069162965 EvalCall 
-850 1794069162967 ExecutingUnlockedFunction is_target_running
-850 1794069163068 EvalCall 
-850 1794069163071 ExecutingUnlockedFunction is_target_running
-850 1794069163170 EvalCall 
-850 1794069163170 ExecutingUnlockedFunction is_target_running
-850 1794069163272 EvalCall 
-850 1794069163274 ExecutingUnlockedFunction is_target_running
-850 1794069163374 EvalCall 
-850 1794069163375 ExecutingUnlockedFunction is_target_running
-850 1794069163474 EvalCall 
-850 1794069163476 ExecutingUnlockedFunction is_target_running
-850 1794069163576 EvalCall 
-850 1794069163577 ExecutingUnlockedFunction is_target_running
-850 1794069163678 EvalCall 
-850 1794069163679 ExecutingUnlockedFunction is_target_running
-850 1794069163779 EvalCall 
-850 1794069163783 ExecutingUnlockedFunction is_target_running
-850 1794069163879 EvalCall 
-850 1794069163880 ExecutingUnlockedFunction is_target_running
-850 1794069163980 EvalCall 
-850 1794069163980 ExecutingUnlockedFunction is_target_running
-850 1794069164080 EvalCall 
-850 1794069164082 ExecutingUnlockedFunction is_target_running
-850 1794069164182 EvalCall 
-850 1794069164185 ExecutingUnlockedFunction is_target_running
-850 1794069164284 EvalCall 
-850 1794069164287 ExecutingUnlockedFunction is_target_running
-850 1794069164385 EvalCall 
-850 1794069164387 ExecutingUnlockedFunction is_target_running
-850 1794069164488 EvalCall 
-850 1794069164492 ExecutingUnlockedFunction is_target_running
-850 1794069164589 EvalCall 
-850 1794069164590 ExecutingUnlockedFunction is_target_running
-850 1794069164690 EvalCall 
-850 1794069164690 ExecutingUnlockedFunction is_target_running
-850 1794069164792 EvalCall 
-850 1794069164794 ExecutingUnlockedFunction is_target_running
-850 1794069164892 EvalCall 
-850 1794069164894 ExecutingUnlockedFunction is_target_running
-850 1794069164993 EvalCall 
-850 1794069164996 ExecutingUnlockedFunction is_target_running
-850 1794069165095 EvalCall 
-850 1794069165097 ExecutingUnlockedFunction is_target_running
-850 1794069165195 EvalCall 
-850 1794069165198 ExecutingUnlockedFunction is_target_running
-850 1794069165296 EvalCall 
-850 1794069165297 ExecutingUnlockedFunction is_target_running
-850 1794069165398 EvalCall 
-850 1794069165399 ExecutingUnlockedFunction is_target_running
-850 1794069165497 EvalCall 
-850 1794069165499 ExecutingUnlockedFunction is_target_running
-850 1794069165599 EvalCall 
-850 1794069165600 ExecutingUnlockedFunction is_target_running
-850 1794069165702 EvalCall 
-850 1794069165703 ExecutingUnlockedFunction is_target_running
-850 1794069165802 EvalCall 
-850 1794069165803 ExecutingUnlockedFunction is_target_running
-850 1794069165903 EvalCall 
-850 1794069165904 ExecutingUnlockedFunction is_target_running
-850 1794069166006 EvalCall 
-850 1794069166006 ExecutingUnlockedFunction is_target_running
-850 1794069166106 EvalCall 
-850 1794069166109 ExecutingUnlockedFunction is_target_running
-850 1794069166206 EvalCall 
-850 1794069166208 ExecutingUnlockedFunction is_target_running
-850 1794069166309 EvalCall 
-850 1794069166309 ExecutingUnlockedFunction is_target_running
-850 1794069166413 EvalCall 
-850 1794069166415 ExecutingUnlockedFunction is_target_running
-850 1794069166515 EvalCall 
-850 1794069166517 ExecutingUnlockedFunction is_target_running
-850 1794069166615 EvalCall 
-850 1794069166618 ExecutingUnlockedFunction is_target_running
-850 1794069166717 EvalCall 
-850 1794069166719 ExecutingUnlockedFunction is_target_running
-850 1794069166818 EvalCall 
-850 1794069166823 ExecutingUnlockedFunction is_target_running
-850 1794069166919 EvalCall 
-850 1794069166921 ExecutingUnlockedFunction is_target_running
-850 1794069167022 EvalCall 
-850 1794069167024 ExecutingUnlockedFunction is_target_running
-850 1794069167124 EvalCall 
-850 1794069167126 ExecutingUnlockedFunction is_target_running
-850 1794069167226 EvalCall 
-850 1794069167228 ExecutingUnlockedFunction is_target_running
-850 1794069167329 EvalCall 
-850 1794069167332 ExecutingUnlockedFunction is_target_running
-850 1794069167431 EvalCall 
-850 1794069167431 ExecutingUnlockedFunction is_target_running
-850 1794069167535 EvalCall 
-850 1794069167535 ExecutingUnlockedFunction is_target_running
-850 1794069167639 EvalCall 
-850 1794069167641 ExecutingUnlockedFunction is_target_running
-850 1794069167738 EvalCall 
-850 1794069167742 ExecutingUnlockedFunction is_target_running
-850 1794069167839 EvalCall 
-850 1794069167842 ExecutingUnlockedFunction is_target_running
-850 1794069167942 EvalCall 
-850 1794069167945 ExecutingUnlockedFunction is_target_running
-850 1794069168046 EvalCall 
-850 1794069168049 ExecutingUnlockedFunction is_target_running
-850 1794069168150 EvalCall 
-850 1794069168170 ExecutingUnlockedFunction is_target_running
-850 1794069168253 EvalCall 
-850 1794069168259 ExecutingUnlockedFunction is_target_running
-850 1794069168355 EvalCall 
-850 1794069168356 ExecutingUnlockedFunction is_target_running
-850 1794069168456 EvalCall 
-850 1794069168457 ExecutingUnlockedFunction is_target_running
-850 1794069168559 EvalCall 
-850 1794069168564 ExecutingUnlockedFunction is_target_running
-850 1794069168661 EvalCall 
-850 1794069168666 ExecutingUnlockedFunction is_target_running
-850 1794069168764 EvalCall 
-850 1794069168766 ExecutingUnlockedFunction is_target_running
-850 1794069168868 EvalCall 
-850 1794069168873 ExecutingUnlockedFunction is_target_running
-850 1794069168968 EvalCall 
-850 1794069168969 ExecutingUnlockedFunction is_target_running
-850 1794069169071 EvalCall 
-850 1794069169072 ExecutingUnlockedFunction is_target_running
-850 1794069169173 EvalCall 
-850 1794069169176 ExecutingUnlockedFunction is_target_running
-850 1794069169275 EvalCall 
-850 1794069169280 ExecutingUnlockedFunction is_target_running
-850 1794069169377 EvalCall 
-850 1794069169378 ExecutingUnlockedFunction is_target_running
-850 1794069169481 EvalCall 
-850 1794069169486 ExecutingUnlockedFunction is_target_running
-850 1794069169583 EvalCall 
-850 1794069169587 ExecutingUnlockedFunction is_target_running
-850 1794069169685 EvalCall 
-850 1794069169690 ExecutingUnlockedFunction is_target_running
-850 1794069169787 EvalCall 
-850 1794069169788 ExecutingUnlockedFunction is_target_running
-850 1794069169888 EvalCall 
-850 1794069169890 ExecutingUnlockedFunction is_target_running
-850 1794069169991 EvalCall 
-850 1794069169991 ExecutingUnlockedFunction is_target_running
-850 1794069170094 EvalCall 
-850 1794069170100 ExecutingUnlockedFunction is_target_running
-850 1794069170196 EvalCall 
-850 1794069170198 ExecutingUnlockedFunction is_target_running
-850 1794069170299 EvalCall 
-850 1794069170302 ExecutingUnlockedFunction is_target_running
-850 1794069170402 EvalCall 
-850 1794069170404 ExecutingUnlockedFunction is_target_running
-850 1794069170504 EvalCall 
-850 1794069170507 ExecutingUnlockedFunction is_target_running
-850 1794069170606 EvalCall 
-850 1794069170608 ExecutingUnlockedFunction is_target_running
-850 1794069170708 EvalCall 
-850 1794069170712 ExecutingUnlockedFunction is_target_running
-850 1794069170819 EvalCall 
-850 1794069170819 ExecutingUnlockedFunction is_target_running
-850 1794069170940 EvalCall 
-850 1794069170940 ExecutingUnlockedFunction is_target_running
-850 1794069171047 EvalCall 
-850 1794069171050 ExecutingUnlockedFunction is_target_running
-850 1794069171152 EvalCall 
-850 1794069171154 ExecutingUnlockedFunction is_target_running
-850 1794069171255 EvalCall 
-850 1794069171258 ExecutingUnlockedFunction is_target_running
-850 1794069171358 EvalCall 
-850 1794069171362 ExecutingUnlockedFunction is_target_running
-850 1794069171465 EvalCall 
-850 1794069171469 ExecutingUnlockedFunction is_target_running
-850 1794069171567 EvalCall 
-850 1794069171571 ExecutingUnlockedFunction is_target_running
-850 1794069171669 EvalCall 
-850 1794069171669 ExecutingUnlockedFunction is_target_running
-850 1794069171773 EvalCall 
-850 1794069171776 ExecutingUnlockedFunction is_target_running
-850 1794069171877 EvalCall 
-850 1794069171880 ExecutingUnlockedFunction is_target_running
-850 1794069171978 EvalCall 
-850 1794069171980 ExecutingUnlockedFunction is_target_running
-850 1794069172083 EvalCall 
-850 1794069172085 ExecutingUnlockedFunction is_target_running
-850 1794069172187 EvalCall 
-850 1794069172188 ExecutingUnlockedFunction is_target_running
-850 1794069172291 EvalCall 
-850 1794069172291 ExecutingUnlockedFunction is_target_running
-850 1794069172394 EvalCall 
-850 1794069172394 ExecutingUnlockedFunction is_target_running
-850 1794069172498 EvalCall 
-850 1794069172498 ExecutingUnlockedFunction is_target_running
-850 1794069172606 EvalCall 
-850 1794069172606 ExecutingUnlockedFunction is_target_running
-850 1794069172720 EvalCall 
-850 1794069172722 ExecutingUnlockedFunction is_target_running
-850 1794069172823 EvalCall 
-850 1794069172826 ExecutingUnlockedFunction is_target_running
-850 1794069172925 EvalCall 
-850 1794069172925 ExecutingUnlockedFunction is_target_running
-850 1794069173026 EvalCall 
-850 1794069173031 ExecutingUnlockedFunction is_target_running
-850 1794069173130 EvalCall 
-850 1794069173132 ExecutingUnlockedFunction is_target_running
-850 1794069173237 EvalCall 
-850 1794069173238 ExecutingUnlockedFunction is_target_running
-850 1794069173341 EvalCall 
-850 1794069173342 ExecutingUnlockedFunction is_target_running
-850 1794069173444 EvalCall 
-850 1794069173447 ExecutingUnlockedFunction is_target_running
-850 1794069173548 EvalCall 
-850 1794069173554 ExecutingUnlockedFunction is_target_running
-850 1794069173651 EvalCall 
-850 1794069173655 ExecutingUnlockedFunction is_target_running
-850 1794069173754 EvalCall 
-850 1794069173756 ExecutingUnlockedFunction is_target_running
-850 1794069173861 EvalCall 
-850 1794069173863 ExecutingUnlockedFunction is_target_running
-850 1794069173964 EvalCall 
-850 1794069173968 ExecutingUnlockedFunction is_target_running
-850 1794069174069 EvalCall 
-850 1794069174071 ExecutingUnlockedFunction is_target_running
-850 1794069174174 EvalCall 
-850 1794069174181 ExecutingUnlockedFunction is_target_running
-850 1794069174277 EvalCall 
-850 1794069174283 ExecutingUnlockedFunction is_target_running
-850 1794069174381 EvalCall 
-850 1794069174385 ExecutingUnlockedFunction is_target_running
-850 1794069174483 EvalCall 
-850 1794069174485 ExecutingUnlockedFunction is_target_running
-850 1794069174588 EvalCall 
-850 1794069174592 ExecutingUnlockedFunction is_target_running
-850 1794069174691 EvalCall 
-850 1794069174694 ExecutingUnlockedFunction is_target_running
-850 1794069174796 EvalCall 
-850 1794069174798 ExecutingUnlockedFunction is_target_running
-850 1794069174900 EvalCall 
-850 1794069174901 ExecutingUnlockedFunction is_target_running
-850 1794069175013 EvalCall 
-850 1794069175015 ExecutingUnlockedFunction is_target_running
-850 1794069175121 EvalCall 
-850 1794069175123 ExecutingUnlockedFunction is_target_running
-850 1794069175223 EvalCall 
-850 1794069175223 ExecutingUnlockedFunction is_target_running
-850 1794069175327 EvalCall 
-850 1794069175333 ExecutingUnlockedFunction is_target_running
-850 1794069175431 EvalCall 
-850 1794069175432 ExecutingUnlockedFunction is_target_running
-850 1794069175534 EvalCall 
-850 1794069175534 ExecutingUnlockedFunction is_target_running
-850 1794069175637 EvalCall 
-850 1794069175640 ExecutingUnlockedFunction is_target_running
-850 1794069175745 EvalCall 
-850 1794069175748 ExecutingUnlockedFunction is_target_running
-850 1794069175847 EvalCall 
-850 1794069175850 ExecutingUnlockedFunction is_target_running
-850 1794069175950 EvalCall 
-850 1794069175954 ExecutingUnlockedFunction is_target_running
-850 1794069176055 EvalCall 
-850 1794069176059 ExecutingUnlockedFunction is_target_running
-850 1794069176160 EvalCall 
-850 1794069176164 ExecutingUnlockedFunction is_target_running
-850 1794069176262 EvalCall 
-850 1794069176270 ExecutingUnlockedFunction is_target_running
-850 1794069176371 EvalCall 
-850 1794069176374 ExecutingUnlockedFunction is_target_running
-850 1794069176474 EvalCall 
-850 1794069176476 ExecutingUnlockedFunction is_target_running
-850 1794069176580 EvalCall 
-850 1794069176582 ExecutingUnlockedFunction is_target_running
-850 1794069176684 EvalCall 
-850 1794069176688 ExecutingUnlockedFunction is_target_running
-850 1794069176785 EvalCall 
-850 1794069176788 ExecutingUnlockedFunction is_target_running
-850 1794069176889 EvalCall 
-850 1794069176889 ExecutingUnlockedFunction is_target_running
-850 1794069176992 EvalCall 
-850 1794069177004 ExecutingUnlockedFunction is_target_running
-850 1794069177095 EvalCall 
-850 1794069177098 ExecutingUnlockedFunction is_target_running
-850 1794069177204 EvalCall 
-850 1794069177204 ExecutingUnlockedFunction is_target_running
-850 1794069177306 EvalCall 
-850 1794069177310 ExecutingUnlockedFunction is_target_running
-850 1794069177409 EvalCall 
-850 1794069177410 ExecutingUnlockedFunction is_target_running
-850 1794069177511 EvalCall 
-850 1794069177515 ExecutingUnlockedFunction is_target_running
-850 1794069177613 EvalCall 
-850 1794069177616 ExecutingUnlockedFunction is_target_running
-850 1794069177715 EvalCall 
-850 1794069177717 ExecutingUnlockedFunction is_target_running
-850 1794069177818 EvalCall 
-850 1794069177821 ExecutingUnlockedFunction is_target_running
-850 1794069177921 EvalCall 
-850 1794069177924 ExecutingUnlockedFunction is_target_running
-850 1794069178024 EvalCall 
-850 1794069178034 ExecutingUnlockedFunction is_target_running
-850 1794069178127 EvalCall 
-850 1794069178129 ExecutingUnlockedFunction is_target_running
-850 1794069178231 EvalCall 
-850 1794069178233 ExecutingUnlockedFunction is_target_running
-850 1794069178333 EvalCall 
-850 1794069178335 ExecutingUnlockedFunction is_target_running
-850 1794069178437 EvalCall 
-850 1794069178440 ExecutingUnlockedFunction is_target_running
-850 1794069178543 EvalCall 
-850 1794069178545 ExecutingUnlockedFunction is_target_running
-850 1794069178647 EvalCall 
-850 1794069178648 ExecutingUnlockedFunction is_target_running
-850 1794069178750 EvalCall 
-850 1794069178753 ExecutingUnlockedFunction is_target_running
-850 1794069178853 EvalCall 
-850 1794069178855 ExecutingUnlockedFunction is_target_running
-850 1794069178955 EvalCall 
-850 1794069178959 ExecutingUnlockedFunction is_target_running
-850 1794069179057 EvalCall 
-850 1794069179060 ExecutingUnlockedFunction is_target_running
-850 1794069179161 EvalCall 
-850 1794069179165 ExecutingUnlockedFunction is_target_running
-850 1794069179263 EvalCall 
-850 1794069179265 ExecutingUnlockedFunction is_target_running
-850 1794069179366 EvalCall 
-850 1794069179366 ExecutingUnlockedFunction is_target_running
-850 1794069179468 EvalCall 
-850 1794069179474 ExecutingUnlockedFunction is_target_running
-850 1794069179572 EvalCall 
-850 1794069179574 ExecutingUnlockedFunction is_target_running
-850 1794069179675 EvalCall 
-850 1794069179677 ExecutingUnlockedFunction is_target_running
-850 1794069179777 EvalCall 
-850 1794069179779 ExecutingUnlockedFunction is_target_running
-850 1794069179881 EvalCall 
-850 1794069179883 ExecutingUnlockedFunction is_target_running
-850 1794069179986 EvalCall 
-850 1794069179987 ExecutingUnlockedFunction is_target_running
-850 1794069180087 EvalCall 
-850 1794069180088 ExecutingUnlockedFunction is_target_running
-850 1794069180194 EvalCall 
-850 1794069180200 ExecutingUnlockedFunction is_target_running
-850 1794069180315 EvalCall 
-850 1794069180319 ExecutingUnlockedFunction is_target_running
-850 1794069180426 EvalCall 
-850 1794069180430 ExecutingUnlockedFunction is_target_running
-850 1794069180538 EvalCall 
-850 1794069180540 ExecutingUnlockedFunction is_target_running
-850 1794069180652 EvalCall 
-850 1794069180656 ExecutingUnlockedFunction is_target_running
-850 1794069180764 EvalCall 
-850 1794069180767 ExecutingUnlockedFunction is_target_running
-850 1794069180874 EvalCall 
-850 1794069180876 ExecutingUnlockedFunction is_target_running
-850 1794069180987 EvalCall 
-850 1794069180991 ExecutingUnlockedFunction is_target_running
-850 1794069181100 EvalCall 
-850 1794069181102 ExecutingUnlockedFunction is_target_running
-850 1794069181212 EvalCall 
-850 1794069181215 ExecutingUnlockedFunction is_target_running
-850 1794069181325 EvalCall 
-850 1794069181328 ExecutingUnlockedFunction is_target_running
-850 1794069181438 EvalCall 
-850 1794069181440 ExecutingUnlockedFunction is_target_running
-850 1794069181550 EvalCall 
-850 1794069181566 ExecutingUnlockedFunction is_target_running
-850 1794069181668 EvalCall 
-850 1794069181673 ExecutingUnlockedFunction is_target_running
-850 1794069181776 EvalCall 
-850 1794069181778 ExecutingUnlockedFunction is_target_running
-850 1794069181892 EvalCall 
-850 1794069181894 ExecutingUnlockedFunction is_target_running
-850 1794069182005 EvalCall 
-850 1794069182005 ExecutingUnlockedFunction is_target_running
-850 1794069182116 EvalCall 
-850 1794069182117 ExecutingUnlockedFunction is_target_running
-850 1794069182227 EvalCall 
-850 1794069182231 ExecutingUnlockedFunction is_target_running
-850 1794069182340 EvalCall 
-850 1794069182342 ExecutingUnlockedFunction is_target_running
-850 1794069182454 EvalCall 
-850 1794069182456 ExecutingUnlockedFunction is_target_running
-850 1794069182568 EvalCall 
-850 1794069182570 ExecutingUnlockedFunction is_target_running
-850 1794069182682 EvalCall 
-850 1794069182689 ExecutingUnlockedFunction is_target_running
-850 1794069182794 EvalCall 
-850 1794069182797 ExecutingUnlockedFunction is_target_running
-850 1794069182907 EvalCall 
-850 1794069182907 ExecutingUnlockedFunction is_target_running
-850 1794069183027 EvalCall 
-850 1794069183030 ExecutingUnlockedFunction is_target_running
-850 1794069183139 EvalCall 
-850 1794069183141 ExecutingUnlockedFunction is_target_running
-850 1794069183253 EvalCall 
-850 1794069183257 ExecutingUnlockedFunction is_target_running
-850 1794069183363 EvalCall 
-850 1794069183366 ExecutingUnlockedFunction is_target_running
-850 1794069183475 EvalCall 
-850 1794069183475 ExecutingUnlockedFunction is_target_running
-850 1794069183586 EvalCall 
-850 1794069183588 ExecutingUnlockedFunction is_target_running
-850 1794069183705 EvalCall 
-850 1794069183708 ExecutingUnlockedFunction is_target_running
-850 1794069183821 EvalCall 
-850 1794069183824 ExecutingUnlockedFunction is_target_running
-850 1794069183931 EvalCall 
-850 1794069183934 ExecutingUnlockedFunction is_target_running
-850 1794069184043 EvalCall 
-850 1794069184048 ExecutingUnlockedFunction is_target_running
-850 1794069184156 EvalCall 
-850 1794069184160 ExecutingUnlockedFunction is_target_running
-850 1794069184266 EvalCall 
-850 1794069184267 ExecutingUnlockedFunction is_target_running
-850 1794069184379 EvalCall 
-850 1794069184381 ExecutingUnlockedFunction is_target_running
-850 1794069184487 EvalCall 
-850 1794069184489 ExecutingUnlockedFunction is_target_running
-850 1794069184599 EvalCall 
-850 1794069184601 ExecutingUnlockedFunction is_target_running
-850 1794069184711 EvalCall 
-850 1794069184714 ExecutingUnlockedFunction is_target_running
-850 1794069184824 EvalCall 
-850 1794069184826 ExecutingUnlockedFunction is_target_running
-850 1794069184941 EvalCall 
-850 1794069184947 ExecutingUnlockedFunction is_target_running
-850 1794069185056 EvalCall 
-850 1794069185061 ExecutingUnlockedFunction is_target_running
-850 1794069185169 EvalCall 
-850 1794069185178 ExecutingUnlockedFunction is_target_running
-850 1794069185281 EvalCall 
-850 1794069185285 ExecutingUnlockedFunction is_target_running
-850 1794069185394 EvalCall 
-850 1794069185400 ExecutingUnlockedFunction is_target_running
-850 1794069185509 EvalCall 
-850 1794069185514 ExecutingUnlockedFunction is_target_running
-850 1794069185622 EvalCall 
-850 1794069185628 ExecutingUnlockedFunction is_target_running
-850 1794069185735 EvalCall 
-850 1794069185742 ExecutingUnlockedFunction is_target_running
-850 1794069185849 EvalCall 
-850 1794069185854 ExecutingUnlockedFunction is_target_running
-850 1794069185962 EvalCall 
-850 1794069185965 ExecutingUnlockedFunction is_target_running
-850 1794069186076 EvalCall 
-850 1794069186082 ExecutingUnlockedFunction is_target_running
-850 1794069186187 EvalCall 
-850 1794069186195 ExecutingUnlockedFunction is_target_running
-850 1794069186298 EvalCall 
-850 1794069186305 ExecutingUnlockedFunction is_target_running
-850 1794069186413 EvalCall 
-850 1794069186417 ExecutingUnlockedFunction is_target_running
-850 1794069186527 EvalCall 
-850 1794069186535 ExecutingUnlockedFunction is_target_running
-850 1794069186639 EvalCall 
-850 1794069186643 ExecutingUnlockedFunction is_target_running
-850 1794069186754 EvalCall 
-850 1794069186758 ExecutingUnlockedFunction is_target_running
-850 1794069186862 EvalCall 
-850 1794069186867 ExecutingUnlockedFunction is_target_running
-850 1794069186972 EvalCall 
-850 1794069186977 ExecutingUnlockedFunction is_target_running
-850 1794069187084 EvalCall 
-850 1794069187090 ExecutingUnlockedFunction is_target_running
-850 1794069187201 EvalCall 
-850 1794069187204 ExecutingUnlockedFunction is_target_running
-850 1794069187314 EvalCall 
-850 1794069187321 ExecutingUnlockedFunction is_target_running
-850 1794069187427 EvalCall 
-850 1794069187430 ExecutingUnlockedFunction is_target_running
-850 1794069187538 EvalCall 
-850 1794069187542 ExecutingUnlockedFunction is_target_running
-850 1794069187651 EvalCall 
-850 1794069187653 ExecutingUnlockedFunction is_target_running
-850 1794069187762 EvalCall 
-850 1794069187765 ExecutingUnlockedFunction is_target_running
-850 1794069187874 EvalCall 
-850 1794069187878 ExecutingUnlockedFunction is_target_running
-850 1794069187984 EvalCall 
-850 1794069187986 ExecutingUnlockedFunction is_target_running
-850 1794069188094 EvalCall 
-850 1794069188094 ExecutingUnlockedFunction is_target_running
-850 1794069188205 EvalCall 
-850 1794069188210 ExecutingUnlockedFunction is_target_running
-850 1794069188320 EvalCall 
-850 1794069188321 ExecutingUnlockedFunction is_target_running
-850 1794069188434 EvalCall 
-850 1794069188436 ExecutingUnlockedFunction is_target_running
-850 1794069188544 EvalCall 
-850 1794069188547 ExecutingUnlockedFunction is_target_running
-850 1794069188656 EvalCall 
-850 1794069188658 ExecutingUnlockedFunction is_target_running
-850 1794069188770 EvalCall 
-850 1794069188772 ExecutingUnlockedFunction is_target_running
-850 1794069188886 EvalCall 
-850 1794069188886 ExecutingUnlockedFunction is_target_running
-850 1794069188998 EvalCall 
-850 1794069189001 ExecutingUnlockedFunction is_target_running
-850 1794069189110 EvalCall 
-850 1794069189114 ExecutingUnlockedFunction is_target_running
-850 1794069189224 EvalCall 
-850 1794069189229 ExecutingUnlockedFunction is_target_running
-850 1794069189336 EvalCall 
-850 1794069189338 ExecutingUnlockedFunction is_target_running
-850 1794069189446 EvalCall 
-850 1794069189448 ExecutingUnlockedFunction is_target_running
-850 1794069189560 EvalCall 
-850 1794069189563 ExecutingUnlockedFunction is_target_running
-850 1794069189672 EvalCall 
-850 1794069189672 ExecutingUnlockedFunction is_target_running
-850 1794069189782 EvalCall 
-850 1794069189782 ExecutingUnlockedFunction is_target_running
-850 1794069189892 EvalCall 
-850 1794069189896 ExecutingUnlockedFunction is_target_running
-850 1794069190005 EvalCall 
-850 1794069190044 ExecutingUnlockedFunction is_target_running
-850 1794069190113 EvalCall 
-850 1794069190118 ExecutingUnlockedFunction is_target_running
-850 1794069190228 EvalCall 
-850 1794069190232 ExecutingUnlockedFunction is_target_running
-850 1794069190340 EvalCall 
-850 1794069190343 ExecutingUnlockedFunction is_target_running
-850 1794069190454 EvalCall 
-850 1794069190454 ExecutingUnlockedFunction is_target_running
-850 1794069190566 EvalCall 
-850 1794069190568 ExecutingUnlockedFunction is_target_running
-850 1794069190680 EvalCall 
-850 1794069190680 ExecutingUnlockedFunction is_target_running
-850 1794069190792 EvalCall 
-850 1794069190796 ExecutingUnlockedFunction is_target_running
-850 1794069190905 EvalCall 
-850 1794069190908 ExecutingUnlockedFunction is_target_running
-850 1794069191020 EvalCall 
-850 1794069191021 ExecutingUnlockedFunction is_target_running
-850 1794069191133 EvalCall 
-850 1794069191135 ExecutingUnlockedFunction is_target_running
-850 1794069191254 EvalCall 
-850 1794069191259 ExecutingUnlockedFunction is_target_running
-850 1794069191378 EvalCall 
-850 1794069191382 ExecutingUnlockedFunction is_target_running
-850 1794069191501 EvalCall 
-850 1794069191505 ExecutingUnlockedFunction is_target_running
-850 1794069191622 EvalCall 
-850 1794069191624 ExecutingUnlockedFunction is_target_running
-850 1794069191743 EvalCall 
-850 1794069191748 ExecutingUnlockedFunction is_target_running
-850 1794069191873 EvalCall 
-850 1794069191875 ExecutingUnlockedFunction is_target_running
-850 1794069191996 EvalCall 
-850 1794069192001 ExecutingUnlockedFunction is_target_running
-850 1794069192118 EvalCall 
-850 1794069192121 ExecutingUnlockedFunction is_target_running
-850 1794069192239 EvalCall 
-850 1794069192245 ExecutingUnlockedFunction is_target_running
-850 1794069192359 EvalCall 
-850 1794069192362 ExecutingUnlockedFunction is_target_running
-850 1794069192493 EvalCall 
-850 1794069192497 ExecutingUnlockedFunction is_target_running
-850 1794069192605 EvalCall 
-850 1794069192606 ExecutingUnlockedFunction is_target_running
-850 1794069192728 EvalCall 
-850 1794069192732 ExecutingUnlockedFunction is_target_running
-850 1794069192848 EvalCall 
-850 1794069192851 ExecutingUnlockedFunction is_target_running
-850 1794069192971 EvalCall 
-850 1794069192972 ExecutingUnlockedFunction is_target_running
-850 1794069193094 EvalCall 
-850 1794069193096 ExecutingUnlockedFunction is_target_running
-850 1794069193215 EvalCall 
-850 1794069193218 ExecutingUnlockedFunction is_target_running
-850 1794069193340 EvalCall 
-850 1794069193344 ExecutingUnlockedFunction is_target_running
-850 1794069193464 EvalCall 
-850 1794069193466 ExecutingUnlockedFunction is_target_running
-850 1794069193585 EvalCall 
-850 1794069193588 ExecutingUnlockedFunction is_target_running
-850 1794069193705 EvalCall 
-850 1794069193707 ExecutingUnlockedFunction is_target_running
-850 1794069193830 EvalCall 
-850 1794069193831 ExecutingUnlockedFunction is_target_running
-850 1794069193952 EvalCall 
-850 1794069193952 ExecutingUnlockedFunction is_target_running
-850 1794069194077 EvalCall 
-850 1794069194077 ExecutingUnlockedFunction is_target_running
-850 1794069194199 EvalCall 
-850 1794069194199 ExecutingUnlockedFunction is_target_running
-850 1794069194323 EvalCall 
-850 1794069194326 ExecutingUnlockedFunction is_target_running
-850 1794069194455 EvalCall 
-850 1794069194458 ExecutingUnlockedFunction is_target_running
-850 1794069194574 EvalCall 
-850 1794069194578 ExecutingUnlockedFunction is_target_running
-850 1794069194695 EvalCall 
-850 1794069194698 ExecutingUnlockedFunction is_target_running
-850 1794069194828 EvalCall 
-850 1794069194828 ExecutingUnlockedFunction is_target_running
-850 1794069194954 EvalCall 
-850 1794069194957 ExecutingUnlockedFunction is_target_running
-850 1794069195079 EvalCall 
-850 1794069195079 ExecutingUnlockedFunction is_target_running
-850 1794069195203 EvalCall 
-850 1794069195205 ExecutingUnlockedFunction is_target_running
-850 1794069195327 EvalCall 
-850 1794069195330 ExecutingUnlockedFunction is_target_running
-850 1794069195452 EvalCall 
-850 1794069195457 ExecutingUnlockedFunction is_target_running
-850 1794069195571 EvalCall 
-850 1794069195572 ExecutingUnlockedFunction is_target_running
-850 1794069195692 EvalCall 
-850 1794069195695 ExecutingUnlockedFunction is_target_running
-850 1794069195820 EvalCall 
-850 1794069195826 ExecutingUnlockedFunction is_target_running
-850 1794069195940 EvalCall 
-850 1794069195940 ExecutingUnlockedFunction is_target_running
-850 1794069196061 EvalCall 
-850 1794069196064 ExecutingUnlockedFunction is_target_running
-850 1794069196188 EvalCall 
-850 1794069196191 ExecutingUnlockedFunction is_target_running
-850 1794069196310 EvalCall 
-850 1794069196313 ExecutingUnlockedFunction is_target_running
-850 1794069196432 EvalCall 
-850 1794069196435 ExecutingUnlockedFunction is_target_running
-850 1794069196561 EvalCall 
-850 1794069196561 ExecutingUnlockedFunction is_target_running
-850 1794069196681 EvalCall 
-850 1794069196686 ExecutingUnlockedFunction is_target_running
-850 1794069196801 EvalCall 
-850 1794069196801 ExecutingUnlockedFunction is_target_running
-850 1794069196922 EvalCall 
-850 1794069196928 ExecutingUnlockedFunction is_target_running
-850 1794069197044 EvalCall 
-850 1794069197048 ExecutingUnlockedFunction is_target_running
-850 1794069197175 EvalCall 
-850 1794069197175 ExecutingUnlockedFunction is_target_running
-850 1794069197296 EvalCall 
-850 1794069197296 ExecutingUnlockedFunction is_target_running
-850 1794069197419 EvalCall 
-850 1794069197422 ExecutingUnlockedFunction is_target_running
-850 1794069197542 EvalCall 
-850 1794069197544 ExecutingUnlockedFunction is_target_running
-850 1794069197664 EvalCall 
-850 1794069197668 ExecutingUnlockedFunction is_target_running
-850 1794069197786 EvalCall 
-850 1794069197790 ExecutingUnlockedFunction is_target_running
-850 1794069197908 EvalCall 
-850 1794069197910 ExecutingUnlockedFunction is_target_running
-850 1794069198028 EvalCall 
-850 1794069198029 ExecutingUnlockedFunction is_target_running
-850 1794069198153 EvalCall 
-850 1794069198153 ExecutingUnlockedFunction is_target_running
-850 1794069198275 EvalCall 
-850 1794069198277 ExecutingUnlockedFunction is_target_running
-850 1794069198398 EvalCall 
-850 1794069198401 ExecutingUnlockedFunction is_target_running
-850 1794069198521 EvalCall 
-850 1794069198524 ExecutingUnlockedFunction is_target_running
-850 1794069198640 EvalCall 
-850 1794069198642 ExecutingUnlockedFunction is_target_running
-850 1794069198761 EvalCall 
-850 1794069198764 ExecutingUnlockedFunction is_target_running
-850 1794069198883 EvalCall 
-850 1794069198887 ExecutingUnlockedFunction is_target_running
-850 1794069199006 EvalCall 
-850 1794069199010 ExecutingUnlockedFunction is_target_running
-850 1794069199133 EvalCall 
-850 1794069199133 ExecutingUnlockedFunction is_target_running
-850 1794069199256 EvalCall 
-850 1794069199259 ExecutingUnlockedFunction is_target_running
-850 1794069199378 EvalCall 
-850 1794069199380 ExecutingUnlockedFunction is_target_running
-850 1794069199498 EvalCall 
-850 1794069199501 ExecutingUnlockedFunction is_target_running
-850 1794069199621 EvalCall 
-850 1794069199624 ExecutingUnlockedFunction is_target_running
-850 1794069199747 EvalCall 
-850 1794069199749 ExecutingUnlockedFunction is_target_running
-850 1794069199892 EvalCall 
-850 1794069199894 ExecutingUnlockedFunction is_target_running
-850 1794069199988 EvalCall 
-850 1794069199992 ExecutingUnlockedFunction is_target_running
-850 1794069200116 EvalCall 
-850 1794069200120 ExecutingUnlockedFunction is_target_running
-850 1794069200239 EvalCall 
-850 1794069200244 ExecutingUnlockedFunction is_target_running
-850 1794069200360 EvalCall 
-850 1794069200363 ExecutingUnlockedFunction is_target_running
-850 1794069200483 EvalCall 
-850 1794069200486 ExecutingUnlockedFunction is_target_running
-850 1794069200605 EvalCall 
-850 1794069200610 ExecutingUnlockedFunction is_target_running
-850 1794069200729 EvalCall 
-850 1794069200733 ExecutingUnlockedFunction is_target_running
-850 1794069200851 EvalCall 
-850 1794069200856 ExecutingUnlockedFunction is_target_running
-850 1794069200973 EvalCall 
-850 1794069200976 ExecutingUnlockedFunction is_target_running
-850 1794069201097 EvalCall 
-850 1794069201104 ExecutingUnlockedFunction is_target_running
-850 1794069201217 EvalCall 
-850 1794069201219 ExecutingUnlockedFunction is_target_running
-850 1794069201340 EvalCall 
-850 1794069201343 ExecutingUnlockedFunction is_target_running
-850 1794069201463 EvalCall 
-850 1794069201465 ExecutingUnlockedFunction is_target_running
-850 1794069201588 EvalCall 
-850 1794069201590 ExecutingUnlockedFunction is_target_running
-850 1794069201710 EvalCall 
-850 1794069201712 ExecutingUnlockedFunction is_target_running
-850 1794069201832 EvalCall 
-850 1794069201835 ExecutingUnlockedFunction is_target_running
-850 1794069201954 EvalCall 
-850 1794069201958 ExecutingUnlockedFunction is_target_running
-850 1794069202079 EvalCall 
-850 1794069202086 ExecutingUnlockedFunction is_target_running
-850 1794069202202 EvalCall 
-850 1794069202209 ExecutingUnlockedFunction is_target_running
-850 1794069202320 EvalCall 
-850 1794069202320 ExecutingUnlockedFunction is_target_running
-850 1794069202450 EvalCall 
-850 1794069202455 ExecutingUnlockedFunction is_target_running
-850 1794069202573 EvalCall 
-850 1794069202573 ExecutingUnlockedFunction is_target_running
-850 1794069202695 EvalCall 
-850 1794069202695 ExecutingUnlockedFunction is_target_running
-850 1794069202818 EvalCall 
-850 1794069202822 ExecutingUnlockedFunction is_target_running
-850 1794069202943 EvalCall 
-850 1794069202955 ExecutingUnlockedFunction is_target_running
-850 1794069203067 EvalCall 
-850 1794069203069 ExecutingUnlockedFunction is_target_running
-850 1794069203188 EvalCall 
-850 1794069203190 ExecutingUnlockedFunction is_target_running
-850 1794069203317 EvalCall 
-850 1794069203317 ExecutingUnlockedFunction is_target_running
-850 1794069203449 EvalCall 
-850 1794069203450 ExecutingUnlockedFunction is_target_running
-850 1794069203584 EvalCall 
-850 1794069203585 ExecutingUnlockedFunction is_target_running
-850 1794069203717 EvalCall 
-850 1794069203720 ExecutingUnlockedFunction is_target_running
-850 1794069203851 EvalCall 
-850 1794069203853 ExecutingUnlockedFunction is_target_running
-850 1794069203983 EvalCall 
-850 1794069203988 ExecutingUnlockedFunction is_target_running
-850 1794069204117 EvalCall 
-850 1794069204119 ExecutingUnlockedFunction is_target_running
-850 1794069204260 EvalCall 
-850 1794069204264 ExecutingUnlockedFunction is_target_running
-850 1794069204394 EvalCall 
-850 1794069204401 ExecutingUnlockedFunction is_target_running
-850 1794069204526 EvalCall 
-850 1794069204529 ExecutingUnlockedFunction is_target_running
-850 1794069204654 EvalCall 
-850 1794069204657 ExecutingUnlockedFunction is_target_running
-850 1794069204784 EvalCall 
-850 1794069204788 ExecutingUnlockedFunction is_target_running
-850 1794069204915 EvalCall 
-850 1794069204915 ExecutingUnlockedFunction is_target_running
-850 1794069205051 EvalCall 
-850 1794069205056 ExecutingUnlockedFunction is_target_running
-850 1794069205182 EvalCall 
-850 1794069205188 ExecutingUnlockedFunction is_target_running
-850 1794069205313 EvalCall 
-850 1794069205315 ExecutingUnlockedFunction is_target_running
-850 1794069205446 EvalCall 
-850 1794069205449 ExecutingUnlockedFunction is_target_running
-850 1794069205576 EvalCall 
-850 1794069205578 ExecutingUnlockedFunction is_target_running
-850 1794069205707 EvalCall 
-850 1794069205719 ExecutingUnlockedFunction is_target_running
-850 1794069205835 EvalCall 
-850 1794069205842 ExecutingUnlockedFunction is_target_running
-850 1794069205968 EvalCall 
-850 1794069205974 ExecutingUnlockedFunction is_target_running
-850 1794069206111 EvalCall 
-850 1794069206114 ExecutingUnlockedFunction is_target_running
-850 1794069206245 EvalCall 
-850 1794069206249 ExecutingUnlockedFunction is_target_running
-850 1794069206375 EvalCall 
-850 1794069206375 ExecutingUnlockedFunction is_target_running
-850 1794069206507 EvalCall 
-850 1794069206509 ExecutingUnlockedFunction is_target_running
-850 1794069206636 EvalCall 
-850 1794069206639 ExecutingUnlockedFunction is_target_running
-850 1794069206768 EvalCall 
-850 1794069206771 ExecutingUnlockedFunction is_target_running
-850 1794069206896 EvalCall 
-850 1794069206899 ExecutingUnlockedFunction is_target_running
-850 1794069207040 EvalCall 
-850 1794069207040 ExecutingUnlockedFunction is_target_running
-850 1794069207166 EvalCall 
-850 1794069207170 ExecutingUnlockedFunction is_target_running
-850 1794069207298 EvalCall 
-850 1794069207301 ExecutingUnlockedFunction is_target_running
-850 1794069207429 EvalCall 
-850 1794069207433 ExecutingUnlockedFunction is_target_running
-850 1794069207562 EvalCall 
-850 1794069207564 ExecutingUnlockedFunction is_target_running
-850 1794069207701 EvalCall 
-850 1794069207705 ExecutingUnlockedFunction is_target_running
-850 1794069207833 EvalCall 
-850 1794069207835 ExecutingUnlockedFunction is_target_running
-850 1794069207965 EvalCall 
-850 1794069207969 ExecutingUnlockedFunction is_target_running
-850 1794069208097 EvalCall 
-850 1794069208102 ExecutingUnlockedFunction is_target_running
-850 1794069208239 EvalCall 
-850 1794069208242 ExecutingUnlockedFunction is_target_running
-850 1794069208374 EvalCall 
-850 1794069208376 ExecutingUnlockedFunction is_target_running
-850 1794069208508 EvalCall 
-850 1794069208515 ExecutingUnlockedFunction is_target_running
-850 1794069208642 EvalCall 
-850 1794069208645 ExecutingUnlockedFunction is_target_running
-850 1794069208775 EvalCall 
-850 1794069208778 ExecutingUnlockedFunction is_target_running
-850 1794069208911 EvalCall 
-850 1794069208913 ExecutingUnlockedFunction is_target_running
-850 1794069209041 EvalCall 
-850 1794069209043 ExecutingUnlockedFunction is_target_running
-850 1794069209172 EvalCall 
-850 1794069209174 ExecutingUnlockedFunction is_target_running
-850 1794069209309 EvalCall 
-850 1794069209315 ExecutingUnlockedFunction is_target_running
-850 1794069209440 EvalCall 
-850 1794069209442 ExecutingUnlockedFunction is_target_running
-850 1794069209574 EvalCall 
-850 1794069209576 ExecutingUnlockedFunction is_target_running
-850 1794069209704 EvalCall 
-850 1794069209704 ExecutingUnlockedFunction is_target_running
-850 1794069209835 EvalCall 
-850 1794069209835 ExecutingUnlockedFunction is_target_running
-850 1794069209967 EvalCall 
-850 1794069209970 ExecutingUnlockedFunction is_target_running
-850 1794069210101 EvalCall 
-850 1794069210106 ExecutingUnlockedFunction is_target_running
-850 1794069210231 EvalCall 
-850 1794069210238 ExecutingUnlockedFunction is_target_running
-850 1794069210362 EvalCall 
-850 1794069210366 ExecutingUnlockedFunction is_target_running
-850 1794069210496 EvalCall 
-850 1794069210500 ExecutingUnlockedFunction is_target_running
-850 1794069210628 EvalCall 
-850 1794069210631 ExecutingUnlockedFunction is_target_running
-850 1794069210759 EvalCall 
-850 1794069210762 ExecutingUnlockedFunction is_target_running
-850 1794069210893 EvalCall 
-850 1794069210900 ExecutingUnlockedFunction is_target_running
-850 1794069211025 EvalCall 
-850 1794069211028 ExecutingUnlockedFunction is_target_running
-850 1794069211156 EvalCall 
-850 1794069211158 ExecutingUnlockedFunction is_target_running
-850 1794069211289 EvalCall 
-850 1794069211289 ExecutingUnlockedFunction is_target_running
-850 1794069211422 EvalCall 
-850 1794069211425 ExecutingUnlockedFunction is_target_running
-850 1794069211553 EvalCall 
-850 1794069211553 ExecutingUnlockedFunction is_target_running
-850 1794069211680 EvalCall 
-850 1794069211680 ExecutingUnlockedFunction is_target_running
-850 1794069211812 EvalCall 
-850 1794069211815 ExecutingUnlockedFunction is_target_running
-850 1794069211945 EvalCall 
-850 1794069211949 ExecutingUnlockedFunction is_target_running
-850 1794069212082 EvalCall 
-850 1794069212084 ExecutingUnlockedFunction is_target_running
-850 1794069212215 EvalCall 
-850 1794069212216 ExecutingUnlockedFunction is_target_running
-850 1794069212348 EvalCall 
-850 1794069212352 ExecutingUnlockedFunction is_target_running
-850 1794069212478 EvalCall 
-850 1794069212480 ExecutingUnlockedFunction is_target_running
-850 1794069212615 EvalCall 
-850 1794069212623 ExecutingUnlockedFunction is_target_running
-850 1794069212747 EvalCall 
-850 1794069212749 ExecutingUnlockedFunction is_target_running
-850 1794069212879 EvalCall 
-850 1794069212883 ExecutingUnlockedFunction is_target_running
-850 1794069213011 EvalCall 
-850 1794069213014 ExecutingUnlockedFunction is_target_running
-850 1794069213144 EvalCall 
-850 1794069213146 ExecutingUnlockedFunction is_target_running
-850 1794069213275 EvalCall 
-850 1794069213279 ExecutingUnlockedFunction is_target_running
-850 1794069213411 EvalCall 
-850 1794069213413 ExecutingUnlockedFunction is_target_running
-850 1794069213544 EvalCall 
-850 1794069213547 ExecutingUnlockedFunction is_target_running
-850 1794069213677 EvalCall 
-850 1794069213680 ExecutingUnlockedFunction is_target_running
-850 1794069213806 EvalCall 
-850 1794069213810 ExecutingUnlockedFunction is_target_running
-850 1794069213940 EvalCall 
-850 1794069213943 ExecutingUnlockedFunction is_target_running
-850 1794069214073 EvalCall 
-850 1794069214076 ExecutingUnlockedFunction is_target_running
-850 1794069214209 EvalCall 
-850 1794069214209 ExecutingUnlockedFunction is_target_running
-850 1794069214344 EvalCall 
-850 1794069214348 ExecutingUnlockedFunction is_target_running
-850 1794069214476 EvalCall 
-850 1794069214479 ExecutingUnlockedFunction is_target_running
-850 1794069214607 EvalCall 
-850 1794069214613 ExecutingUnlockedFunction is_target_running
-850 1794069214738 EvalCall 
-850 1794069214740 ExecutingUnlockedFunction is_target_running
-850 1794069214869 EvalCall 
-850 1794069214874 ExecutingUnlockedFunction is_target_running
-850 1794069215003 EvalCall 
-850 1794069215007 ExecutingUnlockedFunction is_target_running
-850 1794069215135 EvalCall 
-850 1794069215138 ExecutingUnlockedFunction is_target_running
-850 1794069215275 EvalCall 
-850 1794069215277 ExecutingUnlockedFunction is_target_running
-850 1794069215406 EvalCall 
-850 1794069215410 ExecutingUnlockedFunction is_target_running
-850 1794069215534 EvalCall 
-850 1794069215536 ExecutingUnlockedFunction is_target_running
-850 1794069215668 EvalCall 
-850 1794069215670 ExecutingUnlockedFunction is_target_running
-850 1794069215802 EvalCall 
-850 1794069215806 ExecutingUnlockedFunction is_target_running
-850 1794069215936 EvalCall 
-850 1794069215938 ExecutingUnlockedFunction is_target_running
-850 1794069216069 EvalCall 
-850 1794069216076 ExecutingUnlockedFunction is_target_running
-850 1794069216202 EvalCall 
-850 1794069216203 ExecutingUnlockedFunction is_target_running
-850 1794069216331 EvalCall 
-850 1794069216334 ExecutingUnlockedFunction is_target_running
-850 1794069216467 EvalCall 
-850 1794069216471 ExecutingUnlockedFunction is_target_running
-850 1794069216596 EvalCall 
-850 1794069216598 ExecutingUnlockedFunction is_target_running
-850 1794069216714 EvalCall 
-850 1794069216716 ExecutingUnlockedFunction is_target_running
-850 1794069216836 EvalCall 
-850 1794069216838 ExecutingUnlockedFunction is_target_running
-850 1794069216957 EvalCall 
-850 1794069216957 ExecutingUnlockedFunction is_target_running
-850 1794069217077 EvalCall 
-850 1794069217079 ExecutingUnlockedFunction is_target_running
-850 1794069217198 EvalCall 
-850 1794069217198 ExecutingUnlockedFunction is_target_running
-850 1794069217320 EvalCall 
-850 1794069217322 ExecutingUnlockedFunction is_target_running
-850 1794069217442 EvalCall 
-850 1794069217444 ExecutingUnlockedFunction is_target_running
-850 1794069217561 EvalCall 
-850 1794069217564 ExecutingUnlockedFunction is_target_running
-850 1794069217680 EvalCall 
-850 1794069217682 ExecutingUnlockedFunction is_target_running
-850 1794069217804 EvalCall 
-850 1794069217806 ExecutingUnlockedFunction is_target_running
-850 1794069217925 EvalCall 
-850 1794069217926 ExecutingUnlockedFunction is_target_running
-850 1794069218048 EvalCall 
-850 1794069218048 ExecutingUnlockedFunction is_target_running
+707 1794396771145 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:Disconnect
+707 1794396771145 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+707 1794396771145 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+707 1794396771145 NativeController::Disconnect entry
+707 1794396771145 pro JtagIce3 [0x01] <<< 11 00 00 
+707 1794396771146 NativeController::Disconnect exit
+707 1794396771146 ExecuteFunCall.call end_communication_session
+707 1794396771149 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:Disconnect
+707 1794396771149 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+707 1794396771149 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG none
+707 1794396771149 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+707 1794396771149 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@abb886d
+707 1794396771149 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+707 1794396771149 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+707 1794396771272 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+707 1794396771272 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+707 1794396771272 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+707 1794396771272 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+720 1794396787450 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+720 1794396787450 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 2175, AttachedToolVID = 3eb
+720 1794396787450 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+720 1794396787450 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 2175, AttachedToolVID = 3eb
+720 1794396787455 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+720 1794396787455 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+720 1794396787456 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+720 1794396787456 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool.Connect() returned MPLABCOMM_NO_ERROR
+720 1794396787457 GEN4_CONNECT_DIAGNOSTICS:Attaching to MPLABCommTool plugnplay
+720 1794396787460 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@13e5cd96
+720 1794396787460 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+720 1794396787460 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@13e5cd96
+720 1794396787460 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+720 1794396787462 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [2172, 216F, 2173, 2174, 2fc0], CommPnPCriteria.cSerialNumber = mchp3352011800002141
+
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:init
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: Values:
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: pcAddress = 0000002e, Vpp = 3.25, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = PIC24FJ128GA705, programmerType = 
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: MemInfo values:
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = ffffff, exists = true, startAddr = 00000000, endAddr = 00015eff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = ffffff, exists = true, startAddr = 00015f00, endAddr = 00015fff, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0004
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0800, addrInc = 0000, widthProgram = 0000
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = ffffff, exists = true, startAddr = 00800000, endAddr = 008017ff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
+720 1794396787583 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = ffffff, exists = true, startAddr = 00801700, endAddr = 008017ff, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0004
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 7fffffff, exists = true, startAddr = 00ff0000, endAddr = 00ff0003, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = true, startAddr = 00801600, endAddr = 00801609, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0004
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 DeviceInfo: CfgRequiredBitsMask Values:
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f00, Mask = 00008fef
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f10, Mask = 00001fff
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f14, Mask = 00ff7fff
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f18, Mask = 000000ff
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f1c, Mask = 000000ff
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f20, Mask = 00006bff
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f24, Mask = 0000000f
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f28, Mask = 00000003
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Address = 00015f2c, Mask = 0000001e
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 BasicInfo: Values:
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:init
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 none
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 RI4DebugInterface
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 com.microchip.mplab.libs.scriptbasedcontroller.implementations.DebugImplWithAtmelIceHelp@2a9fd37a
+720 1794396787588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 RI4ProgramInterface
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 com.microchip.mplab.libs.scriptbasedcontroller.implementations.ProgramImpl@17ab32c2
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 RI4ConnectInterface
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 com.microchip.mplab.libs.scriptbasedcontroller.implementations.AtmelIceCommunicationsImplementationWithCallback@65736eb1
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 RI4ControllerDiagnosticsInterface
+720 1794396787589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 com.microchip.mplab.libs.atmelice.implementations.UnimplementedDiagnostics@32ab8447
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 ProgrammerToGo
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 null
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Pre:GetInterfaceProvider
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Status
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Post:GetInterfaceProvider
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 null
+720 1794396787590 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Pre:SetProgramExec
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Payload
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Test
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 800000
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Length = 6126
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Payload End
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Post:SetProgramExec
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Return Value
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 true
+720 1794396787604 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC24FJ128GA705 Return End
+
+720 1794396787607 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:EstablishCommunincations
+720 1794396787607 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787607 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG com.microchip.mplab.mdbcore.AtmelIceScripting.AIceScriptingCom@66fb856b
+720 1794396787607 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787607 NativeController::EstablishCommunincations entry
+720 1794396787607 pro JtagIce3 [0x00] <<< 00 00 00 
+720 1794396787616 pro JtagIce3 [0x00] >>> 81 00 00 01 12 20 
+720 1794396787616 pro JtagIce3 [0x01] <<< 10 00 
+720 1794396787621 pro JtagIce3 [0x01] >>> 80 00 
+720 1794396787621 pro JtagIce3 [0x00] <<< 00 00 03 
+720 1794396787627 pro JtagIce3 [0x00] >>> 81 00 08 
+720 1794396787627 NativeController::EstablishCommunincations exit
+720 1794396787630 ExecuteFunCall.call query_prog_addr_mode
+720 1794396787630 ExecuteFunCall.call query_debug_addr_mode
+720 1794396787630 ExecuteFunCall.call query_prog_data_mode
+720 1794396787630 ExecuteFunCall.call query_debug_data_mode
+720 1794396787630 ExecuteFunCall.call begin_communication_session
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:EstablishCommunincations
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG true
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:GetFirmwareInfo
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG null
+720 1794396787708 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787708 NativeController::GetFirmwareInfo entry
+720 1794396787709 pro JtagIce3 [0x01] <<< 02 00 00 00 01 
+720 1794396787713 pro JtagIce3 [0x01] >>> 84 01 00 00 
+720 1794396787713 NativeController::getFirmwareVersion entry
+720 1794396787713 pro JtagIce3 [0x01] <<< 02 00 00 01 01 
+720 1794396787720 pro JtagIce3 [0x01] >>> 84 01 01 00 
+720 1794396787720 pro JtagIce3 [0x01] <<< 02 00 00 02 01 
+720 1794396787725 pro JtagIce3 [0x01] >>> 84 01 24 00 
+720 1794396787725 pro JtagIce3 [0x01] <<< 02 00 00 03 02 
+720 1794396787729 pro JtagIce3 [0x01] >>> 84 01 66 00 00 
+720 1794396787729 NativeController::getFirmwareVersion exit
+720 1794396787729 pro JtagIce3 [0x01] <<< 02 00 00 09 01 
+720 1794396787734 pro JtagIce3 [0x01] >>> 84 01 00 11 
+720 1794396787734 NativeController::tryGetFPGAVersion entry
+720 1794396787734 pro JtagIce3 [0x01] <<< 02 00 00 10 01 
+720 1794396787741 pro JtagIce3 [0x01] >>> 84 01 00 11 
+720 1794396787741 pro JtagIce3 [0x01] <<< 02 00 00 11 01 
+720 1794396787747 pro JtagIce3 [0x01] >>> 84 01 00 11 
+720 1794396787747 pro JtagIce3 [0x01] <<< 02 00 00 12 01 
+720 1794396787754 pro JtagIce3 [0x01] >>> 84 01 00 11 
+720 1794396787754 NativeController::tryGetFPGAVersion exit
+720 1794396787754 NativeController::tryGetFPGAVersion exit with exception No value present
+720 1794396787754 pro JtagIce3 [0x01] <<< 02 00 00 06 01 
+720 1794396787759 pro JtagIce3 [0x01] >>> 84 01 00 00 
+720 1794396787759 pro JtagIce3 [0x01] <<< 02 00 00 07 01 
+720 1794396787765 pro JtagIce3 [0x01] >>> 84 01 00 00 
+720 1794396787765 pro JtagIce3 [0x01] <<< 02 00 00 0A 01 
+720 1794396787770 pro JtagIce3 [0x01] >>> 84 01 00 00 
+720 1794396787770 NativeController::GetFirmwareInfo exit
+720 1794396787770 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:GetFirmwareInfo
+720 1794396787770 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787770 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG FirmwareInfo: Values:
+720 1794396787770 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG FirmwareInfo: boot = false, bootVer = 0.0.0 (0x00.0x00.0x00), apVer = 1.36.102 (0x01.0x24.0x66), fpgaVer = null, scriptVer = null, macAddress = , devID = 0, devID1 = 0, devSN0 = 0, devSN1 = 0, serialNumber = null, appCommitID = null, scriptCommitID = null, PCB_ID = 0
+720 1794396787770 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+720 1794396787771 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+720 1794396787771 GEN4_CONNECT_DIAGNOSTICS:Created FirmwareUpdateHandler com.microchip.mplab.mdbcore.AtmelIceScripting.OperationHandlers.AIceScriptingFirmwareUpdateHandler@7a2c6f86
+
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:SetUpdateFirmwareInfo
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG UpdateFirmwareInfo: Values:
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG UpdateFirmwareInfo: license = , updateId = 0
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:SetUpdateFirmwareInfo
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG none
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+720 1794396787782 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:SetPowerInfo
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787782 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG PowerInfo: Values:
+720 1794396787783 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG PowerInfo: shotDownSystem = false, isToolPower = false, voltage = 3.250000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+720 1794396787783 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787783 NativeController::GetVoltageInfo entry
+720 1794396787783 pro JtagIce3 [0x01] <<< 02 00 01 00 02 
+720 1794396787790 pro JtagIce3 [0x01] >>> 84 01 DB 0C 00 
+720 1794396787790 pro JtagIce3 [0x01] <<< 02 00 01 20 02 
+720 1794396787796 pro JtagIce3 [0x01] >>> 84 01 E4 0C 00 
+720 1794396787796 pro JtagIce3 [0x01] <<< 02 00 01 02 02 
+720 1794396787800 pro JtagIce3 [0x01] >>> 84 01 FA 13 00 
+720 1794396787800 NativeController::GetVoltageInfo exit
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:SetPowerInfo
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG none
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:GetVoltageInfo
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG null
+720 1794396787800 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787800 NativeController::GetVoltageInfo entry
+720 1794396787800 pro JtagIce3 [0x01] <<< 02 00 01 00 02 
+720 1794396787807 pro JtagIce3 [0x01] >>> 84 01 DB 0C 00 
+720 1794396787807 pro JtagIce3 [0x01] <<< 02 00 01 20 02 
+720 1794396787814 pro JtagIce3 [0x01] >>> 84 01 E4 0C 00 
+720 1794396787814 pro JtagIce3 [0x01] <<< 02 00 01 02 02 
+720 1794396787819 pro JtagIce3 [0x01] >>> 84 01 F8 13 00 
+720 1794396787819 NativeController::GetVoltageInfo exit
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:GetVoltageInfo
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG VoltagesInfo: Values:
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG VoltagesInfo: internalVdd = 0, internalVpp = 0, targetVdd = 0, targetVpp = 3300, vddSense = 3291, temp = 0, vddCurrentSense = 0, vddVoltageSense = 5112
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:SetLEDBrightness
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG 5
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:SetLEDBrightness
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG none
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:SetToolInfo
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG ToolInfo: Values:
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG ToolInfo: speedLevel = 1, PGCResistance = 4700, PGDResistance = 4700, PGCPullDir = PullDown, PGDPullDir = PullDown, ICSPSelected = Wire2
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Post:SetToolInfo
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return Value
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG none
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Return End
+
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Pre:GetTargetIDInfo
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG null
+720 1794396787819 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG Payload End
+720 1794396787819 ExecuteFunCall.call start_programming_operation

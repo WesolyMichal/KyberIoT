@@ -202,6 +202,15 @@
         <itemPath>mcc_generated_files/i2c1.h</itemPath>
       </logicalFolder>
       <logicalFolder name="my_files" displayName="my_files" projectFiles="true">
+        <logicalFolder name="Kyber" displayName="Kyber" projectFiles="true">
+          <itemPath>my_files/Kyber/byte_operations.h</itemPath>
+          <itemPath>my_files/Kyber/kyber_pkg.h</itemPath>
+          <itemPath>my_files/Kyber/ml_kem.h</itemPath>
+          <itemPath>my_files/Kyber/ml_kem_const.h</itemPath>
+          <itemPath>my_files/Kyber/NTT.h</itemPath>
+          <itemPath>my_files/Kyber/SHA3.h</itemPath>
+          <itemPath>my_files/Kyber/tests.h</itemPath>
+        </logicalFolder>
         <itemPath>my_files/oled.h</itemPath>
         <itemPath>my_files/sh1106.h</itemPath>
         <itemPath>my_files/sh1106_font5x7.h</itemPath>
@@ -421,6 +430,14 @@
         <itemPath>mcc_generated_files/i2c1.c</itemPath>
       </logicalFolder>
       <logicalFolder name="my_files" displayName="my_files" projectFiles="true">
+        <logicalFolder name="Kyber" displayName="Kyber" projectFiles="true">
+          <itemPath>my_files/Kyber/byte_operations.c</itemPath>
+          <itemPath>my_files/Kyber/ml_kem.c</itemPath>
+          <itemPath>my_files/Kyber/ml_kem_const.c</itemPath>
+          <itemPath>my_files/Kyber/NTT.c</itemPath>
+          <itemPath>my_files/Kyber/SHA3.c</itemPath>
+          <itemPath>my_files/Kyber/tests.c</itemPath>
+        </logicalFolder>
         <itemPath>my_files/oled.c</itemPath>
         <itemPath>my_files/sh1106.c</itemPath>
         <itemPath>my_files/comms.c</itemPath>
@@ -1791,6 +1808,104 @@
         <C30Global>
         </C30Global>
       </item>
+      <item path="my_files/Kyber/SHA3.c" ex="true" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/SHA3.h" ex="true" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/kyber_pkg.h" ex="true" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/ml_kem.c" ex="true" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/ml_kem.h" ex="true" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/tests.c" ex="false" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="my_files/Kyber/tests.h" ex="false" overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-CO>
+        </C30-CO>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
       <item path="my_files/oled.c" ex="true" overriding="false">
         <C30>
         </C30>
@@ -1872,8 +1987,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-15eff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Users/mwes/Documents/ApMik/repo/KyberIoT/Kyber_IoT_4.X/debug/default/Kyber_IoT_4_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
