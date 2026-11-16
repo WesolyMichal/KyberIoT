@@ -3,8 +3,10 @@
 
 #include <stdint.h>
 
-typedef struct {
+typedef union {
+           //A[y][x]]
     uint64_t A[5][5];
+    uint8_t bajt[200];
 } Keccak_State;
 
 #endif
