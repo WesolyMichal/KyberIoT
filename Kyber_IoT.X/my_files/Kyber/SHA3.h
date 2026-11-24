@@ -24,7 +24,7 @@ void SHAKE128_Squeeze(SpongeState* ctx, uint8_t* output_bytes, uint16_t output_l
 
 void Kyber_H(SpongeState* ctx, uint8_t output_bytes[32], uint8_t* input_bytes, uint16_t input_len);
 void Kyber_G(SpongeState* ctx, uint8_t output_bytes[64], uint8_t* input_bytes, uint16_t input_len);
-void Kyber_J(SpongeState* ctx, uint8_t output_bytes[64], uint8_t* input_bytes, uint16_t input_len);
+void Kyber_J(SpongeState* ctx, uint8_t output_bytes[32], uint8_t* input_bytes, uint16_t input_len);
 
 void Kyber_PRF(SpongeState* ctx, uint8_t* output_bytes, uint8_t output_len, const uint8_t s[32], uint8_t b);
 void PRF_ETA(SpongeState* ctx, uint8_t* output_bytes, uint8_t eta, const uint8_t s[32], uint8_t b);

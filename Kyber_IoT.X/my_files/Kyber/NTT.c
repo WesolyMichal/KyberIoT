@@ -73,3 +73,9 @@ void MultiplyNTT(PolyBlock *NTT_In1, PolyBlock *NTT_In2, PolyBlock *NTT_Out){
 										 &NTT_Out->coeffs[2*i + 1]);
 	}
 };
+
+void AddNTT(PolyBlock *NTT_In1, PolyBlock *NTT_In2, PolyBlock *NTT_Out){
+    for(uint16_t i = 0; i<256; i++){
+        NTT_Out->coeffs[i] = modQ(NTT_In1->coeffs[i] + NTT_In2->coeffs[i]);
+    }    
+}

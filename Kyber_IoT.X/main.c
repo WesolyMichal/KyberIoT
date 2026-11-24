@@ -7,31 +7,39 @@
 
 #include "mcc_generated_files/system.h"
 #include "my_files/sh1106.h"
-#include "my_files/Kyber/tests.h"
+//#include "my_files/Kyber/tests.h"
+#include "my_files/Kyber/SHA3.h"
 
 int main(void) {
     
     // Inicjalizacja
     SYSTEM_Initialize();
-    SH1106_Init();
-        
-    SH1106_DrawString(0, 0, "Hello World!", SH1106_WHITE, 1);
-    SH1106_Update();  
+//    SH1106_Init();
+//        
+//    SH1106_DrawString(0, 0, "Hello World!", SH1106_WHITE, 1);
+//    SH1106_Update();  
+//    
+////    char result[32];
+////    
+////    Test_ByteEncDec(result);
+////    SH1106_DrawString(0, 8, result, SH1106_WHITE, 1);
+////    SH1106_Update();
+////    
+////    Test_PolyInv(result);
+////    SH1106_DrawString(0, 16, result, SH1106_WHITE, 1);
+////    SH1106_Update();
+////    
+////    Test_SimplePolyMul(10, result);
+////    SH1106_DrawString(0, 24, result, SH1106_WHITE, 1);
+////    SH1106_Update();
     
-//    char result[32];
-//    
-//    Test_ByteEncDec(result);
-//    SH1106_DrawString(0, 8, result, SH1106_WHITE, 1);
-//    SH1106_Update();
-//    
-//    Test_PolyInv(result);
-//    SH1106_DrawString(0, 16, result, SH1106_WHITE, 1);
-//    SH1106_Update();
-//    
-//    Test_SimplePolyMul(10, result);
-//    SH1106_DrawString(0, 24, result, SH1106_WHITE, 1);
-//    SH1106_Update();
+    SpongeState ctx;
     
+    uint8_t output_bytes[32];
+    
+    Kyber_J(&ctx, output_bytes, "", 0);
+    
+    asm("nop");
     while (1) {
         
     }
