@@ -113,20 +113,15 @@ void KeccakP1600(Keccak_State* state){
     }
 }
 
-typedef struct{
-    Keccak_State State;
-    uint16_t rate;
-    uint16_t offset;
-} SpongeState;
-
-void SHAKE128_Init(SpongeState* ctx){
+void SHAKE128_Init(SpongeState* ctx, uint8_t rate, uint8_t domain_sep){
     for(uint8_t x = 0; x < 5; x++){
         for(uint8_t y = 0; y < 5; y++){
             ctx->State.A[y][x] = 0;
         }
     }
     
-    ctx->rate = 168;
+    ctx->domain_sep = domain_sep;
+    ctx->rate = rate;
     ctx->offset = 0;
 }
 
@@ -153,7 +148,7 @@ void SHAKE128_Absorb(SpongeState* ctx, const uint8_t* input_data, uint16_t len){
 }
 
 void SHAKE128_PadAbsorb(SpongeState* ctx){
-    ctx->State.bajt[ctx->offset] ^= 0x1F;
+    ctx->State.bajt[ctx->offset] ^= ctx->domain_sep;
     ctx->State.bajt[ctx->rate-1] ^= 0x80;
     
     KeccakP1600(&ctx->State);
@@ -176,4 +171,36 @@ void SHAKE128_Squeeze(SpongeState* ctx, uint8_t* output_bytes, uint16_t output_l
             ctx->offset = 0;
         }
     }
+}
+
+void Kyber_H(SpongeState* ctx, uint8_t output_bytes[32], uint8_t* input_bytes, uint16_t input_len){
+    SHAKE128_Init(ctx, 136, 0x06);
+    SHAKE128_Absorb(ctx, input_bytes, input_len);
+    SHAKE128_PadAbsorb(ctx);
+    SHAKE128_Squeeze(ctx, output_bytes, 32);
+}
+
+void Kyber_G(SpongeState* ctx, uint8_t output_bytes[64], uint8_t* input_bytes, uint16_t input_len){
+    SHAKE128_Init(ctx, 72, 0x06);
+    SHAKE128_Absorb(ctx, input_bytes, input_len);
+    SHAKE128_PadAbsorb(ctx);
+    SHAKE128_Squeeze(ctx, output_bytes, 64);
+}
+void Kyber_J(SpongeState* ctx, uint8_t output_bytes[64], uint8_t* input_bytes, uint16_t input_len){
+    SHAKE128_Init(ctx, 136, 0x1F);
+    SHAKE128_Absorb(ctx, input_bytes, input_len);
+    SHAKE128_PadAbsorb(ctx);
+    SHAKE128_Squeeze(ctx, output_bytes, 32);
+}
+
+void Kyber_PRF(SpongeState* ctx, uint8_t* output_bytes, uint8_t output_len, const uint8_t s[32], uint8_t b){
+    SHAKE128_Init(ctx, 136, 0x1F);
+    SHAKE128_Absorb(ctx, s, 32);
+    SHAKE128_Absorb(ctx, &b, 1);
+    SHAKE128_PadAbsorb(ctx);
+    SHAKE128_Squeeze(ctx, output_bytes, 32);
+}
+
+void PRF_ETA(SpongeState* ctx, uint8_t* output_bytes, uint8_t eta, const uint8_t s[32], uint8_t b){
+    Kyber_PRF(ctx, output_bytes, 8*64*eta, s, b);
 }

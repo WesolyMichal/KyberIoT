@@ -18,19 +18,19 @@ int main(void) {
     SH1106_DrawString(0, 0, "Hello World!", SH1106_WHITE, 1);
     SH1106_Update();  
     
-    char result[32];
-    
-    Test_ByteEncDec(result);
-    SH1106_DrawString(0, 8, result, SH1106_WHITE, 1);
-    SH1106_Update();
-    
-    Test_PolyInv(result);
-    SH1106_DrawString(0, 16, result, SH1106_WHITE, 1);
-    SH1106_Update();
-    
-    Test_SimplePolyMul(10, result);
-    SH1106_DrawString(0, 24, result, SH1106_WHITE, 1);
-    SH1106_Update();
+//    char result[32];
+//    
+//    Test_ByteEncDec(result);
+//    SH1106_DrawString(0, 8, result, SH1106_WHITE, 1);
+//    SH1106_Update();
+//    
+//    Test_PolyInv(result);
+//    SH1106_DrawString(0, 16, result, SH1106_WHITE, 1);
+//    SH1106_Update();
+//    
+//    Test_SimplePolyMul(10, result);
+//    SH1106_DrawString(0, 24, result, SH1106_WHITE, 1);
+//    SH1106_Update();
     
     while (1) {
         

@@ -11,10 +11,11 @@ typedef struct {
 #define KyberQ 3329
 #define KyberQINV 62209
 //ML-KEM-1024
-#define KyberK 4;
-#define KyberEta 2; //eta1 i eta2 sa takie same w ML-KEM-1024 i 768
-#define KyberDu 11;
-#define KyberDv 5;
+#define KyberK 2;
+#define KyberEta1 3; //eta1 i eta2 sa takie same w ML-KEM-1024 i 768
+#define KyberEta2 2;
+#define KyberDu 10;
+#define KyberDv 4;
 
 static const int16_t ZETA[128] = {
     1, 17, 289, 1584, 301, 1788, 442, 856,
